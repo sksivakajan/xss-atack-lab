@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container styling for content */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #333;
+}
+
+/* Search form styling */
+form {
+    display: inline-block;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"], textarea {
+    width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Search result styling */
+.result {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Congratulations message styling */
+.congrats-message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Image container styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #4CAF50; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Round corners */
+}
